@@ -12,4 +12,4 @@ This will create alarms for each of the thresholds and assign the corresponding 
 * terraform plan
 * terraform apply
 
-Remember that passwords and other sensitive information may be in your state file.*
+*Remember that passwords and other sensitive information may be in your state file.*

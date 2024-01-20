@@ -8,6 +8,6 @@ Don't forget to have people subscribe to these topics as needed!
 * terraform plan
 * terraform apply
 
-Remember that passwords and other sensitive information may be in your state file.
+*Remember that passwords and other sensitive information may be in your state file.*
 
-*
+

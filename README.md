@@ -25,7 +25,7 @@ Security Notes:
 * There are a few folders I purposely didn't exclude from this repository (such as mfacodes) for teaching purposes.  You should ignore that folder as well as any tfstate files that may include sensitive information.
 * Some like to gitignore *.tfvars as well but if you don't put anything sensitive in there, its nice to have them for reference.
 
-For a more complex example of a full Terraform configuration, including AWS and Cloudflare services, please reference the wdj_terraform_example_advanced.
+For a more complex example of a full Terraform configuration, including AWS and Cloudflare services, please reference the terraform_example_advanced.
 
 **Pre-Amble**
 

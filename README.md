@@ -22,14 +22,14 @@ Dependencies:
 
 Security Notes:
 
-* There are a few folders I purposely didn't exclude from this repository (such as mfacodes) for teaching purposes.  You should ignore that folder as well as any tfstate files that may include sensitive information.
+* There are a few folders I purposely didn't exclude from this repository (such as mfacodes) for teaching purposes.  You should gitignore that folder as well as any tfstate files that may include sensitive information.
 * Some like to gitignore *.tfvars as well but if you don't put anything sensitive in there, its nice to have them for reference.
 
 For a more complex example of a full Terraform configuration, including AWS and Cloudflare services, please reference the terraform_example_advanced.
 
 **Pre-Amble**
 
-When I create a standlone AWS account, I like to launch an EC2 instance,  create a user "terraform", lock it down with Security Group rules and then use it for my Terraform and Puppet management.  I create an IAM role with full adminstrative privileges and assign it to the EC2.  When the EC2 is not in-use, it is shut down.
+When I create a standlone AWS account, I like to launch an EC2 instance,  create a user "terraform", lock it down with Security Group rules and then use it for my Terraform and Puppet management.  I create an IAM role with full adminstrative privileges and assign it to the EC2.  When the EC2 is not in-use, it is shut down.  If you're wanting to follow least-privilege security, you would create a role and add policies as you need them to accomplish your Terraforming goals.  
 
 Terraform will install provider dependencies all over your code increasing its size and causing some issues with git and versioning.  To handle that, I use the Terraform filesystem mirror plugin.  This lets you centralize your provider dependencies in your ~/.terraform.d.
 

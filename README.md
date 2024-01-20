@@ -1,4 +1,4 @@
-# wdj_terraform_example_simple
+# terraform_example_simple
 
 ### Simple Terraform Example
 
@@ -11,7 +11,7 @@ This simple Terraform configuration example demonstrates how to automate some ba
 * Creating an admininistrative user with password and MFA.
 * Creating a policy to purge any Cloudfront distribution in the system.
 
-*For a more complex example of a full Terraform configuration, including AWS and Cloudflare services, please reference the wdj_terraform_example_advanced.*
+*For a more complex example of a full Terraform configuration, including AWS and Cloudflare services, please reference the terraform_example_advanced.*
 
 
 Dependencies:
